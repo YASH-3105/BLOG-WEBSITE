@@ -1,0 +1,8 @@
+<h2>Recent Posts</h2>
+
+<% posts.forEach(post => { %>
+    <div class="post">
+        <h3><%= post.title %></h3>
+        <p><%= post.content %></p>
+    </div>
+<% }); %>
